@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema2Ejercicios;
+package FranciscoGarretaCalderon.Tema2EjerciciosJava;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class CalcularIVA {
