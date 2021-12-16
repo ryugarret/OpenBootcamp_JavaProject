@@ -12,4 +12,5 @@ public class ConcatenarTextos {
         System.out.println(textoCompleto);
 
     }
+
 }
