@@ -10,6 +10,7 @@ public class SmartDevice {
         System.out.println(phone);
         SmartWatch watch = new SmartWatch("Casio", "Calculadora", "Wear OS", "Litio, integrada", true, false);
         System.out.println(watch);
+
     }
 
     String marca;
@@ -29,7 +30,9 @@ public class SmartDevice {
     }
 
     @Override public String toString() {
+
         return "SmartDevice: Marca='" + marca + "', Modelo= '" + modelo + "', Sistema operativo= '" + sistemaOperativo + "', Tipo de batería= '" + tipoDeBateria + "'";
+
     }
 
     public static class SmartPhone extends SmartDevice {
@@ -48,7 +51,9 @@ public class SmartDevice {
         }
 
         @Override public String toString() {
+
             return "SmartPhone: Marca= '" + marca + "', Modelo= '" + modelo + "', Sistema operativo= '" + sistemaOperativo + "', Tipo de batería= '" + tipoDeBateria + "', Tipo de cargador= '" + tipoDeCargador + "', Tipo de cargador= '" + operadorMovil + "'";
+
         }
 
     }
@@ -69,12 +74,11 @@ public class SmartDevice {
         }
 
         @Override public String toString() {
+
             return "SmartWatch: Marca='" + marca + "', Modelo= '" + modelo + "', Sistema operativo= '" + sistemaOperativo + "', Tipo de batería= '" + tipoDeBateria + "', Tiene pulsioximetro= '" + pulsioximetro + "', Tiene termómetro= '" + termometro + "'";
+
         }
 
     }
 
 }
-
-
-
