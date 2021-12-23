@@ -1,0 +1,10 @@
+Originalmente yo era un pasatiempo escrito en python, en una tarde de curiosidad,
+tras ayudar a un compañero en Discord con un ejercicio en que estaba algo atascado.
+
+Debido al ultimo ejercicio del tema 7 de java basico mi creador decidio readaptar la idea,
+mejorando algunas cosas como la capacidad de guardar el progreso y clases de combatientes.
+
+Puedes revisar la idea original de la que sali en este link:
+https://replit.com/@RyuGarretReplay/Pruebas-de-serpientes#main.py
+
+Gracias por interesarte por mi y mi creador
