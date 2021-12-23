@@ -55,11 +55,11 @@ public class MiniJuego {
 
                         System.out.println("Elige uno de los luchadores.\nCazador\nGuerrero\nLancero\nPícaro");
                         String luchador = sc.nextLine();
+                        int claseEnemigo = ThreadLocalRandom.current().nextInt(1, 5);
 
                         if (luchador.equalsIgnoreCase("Cazador")) {
 
                             Cazador pjJugador = new Cazador(true, "Cazador");
-                            int claseEnemigo = ThreadLocalRandom.current().nextInt(1, 5);
                             if (claseEnemigo == 1) {
 
                                 Cazador pjEnemigo = new Cazador(false, "Cazador");
@@ -123,7 +123,6 @@ public class MiniJuego {
                         } else if (luchador.equalsIgnoreCase("Guerrero")) {
 
                             Guerrero pjJugador = new Guerrero(true, "Guerrero");
-                            int claseEnemigo = ThreadLocalRandom.current().nextInt(1, 5);
                             if (claseEnemigo == 1) {
 
                                 Cazador pjEnemigo = new Cazador(false, "Cazador");
@@ -187,7 +186,6 @@ public class MiniJuego {
                         } else if (luchador.equalsIgnoreCase("Lancero")) {
 
                             Lancero pjJugador = new Lancero(true, "Lancero");
-                            int claseEnemigo = ThreadLocalRandom.current().nextInt(1, 5);
                             if (claseEnemigo == 1) {
 
                                 Cazador pjEnemigo = new Cazador(false, "Cazador");
@@ -251,7 +249,6 @@ public class MiniJuego {
                         } else if (luchador.equalsIgnoreCase("Picaro") || luchador.equalsIgnoreCase("Pícaro")) {
 
                             Picaro pjJugador = new Picaro(true, "Pícaro");
-                            int claseEnemigo = ThreadLocalRandom.current().nextInt(1, 4);
                             if (claseEnemigo == 1) {
 
                                 Cazador pjEnemigo = new Cazador(false, "Cazador");
