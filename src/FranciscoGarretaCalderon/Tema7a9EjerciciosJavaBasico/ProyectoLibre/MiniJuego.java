@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema7a9EjerciciosJava.ProyectoLibre;
+package FranciscoGarretaCalderon.Tema7a9EjerciciosJavaBasico.ProyectoLibre;
 
 import java.io.*;
 import java.util.HashMap;

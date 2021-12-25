@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema4EjerciciosJava;
+package FranciscoGarretaCalderon.Tema4EjerciciosJavaBasico;
 
 public class SmartDevice {
 

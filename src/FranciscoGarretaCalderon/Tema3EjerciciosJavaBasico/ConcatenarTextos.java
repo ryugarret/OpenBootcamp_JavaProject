@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema3EjerciciosJava;
+package FranciscoGarretaCalderon.Tema3EjerciciosJavaBasico;
 
 public class ConcatenarTextos {
 

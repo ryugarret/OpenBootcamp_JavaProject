@@ -1,6 +1,7 @@
-package FranciscoGarretaCalderon.Tema7a9EjerciciosJava;
+package FranciscoGarretaCalderon.Tema7a9EjerciciosJavaBasico;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class ArrayList5y6 {
@@ -31,17 +32,18 @@ public class ArrayList5y6 {
 
         }
 
-        for (int i = 0; i < numeros.size(); i++) {
 
-            if (numeros.get(i)%2 == 0) {
-                numeros.remove(i);
+        for (Iterator<Integer> actual = numeros.iterator(); actual.hasNext();) {
+
+            int numeroActual = actual.next();
+            if (numeroActual%2 == 0) {
+                actual.remove();
+            } else {
+
+                System.out.println(numeroActual);
+
             }
 
-        }
-
-        for (int numero : numeros) {
-
-            System.out.println(numero);
         }
 
     }

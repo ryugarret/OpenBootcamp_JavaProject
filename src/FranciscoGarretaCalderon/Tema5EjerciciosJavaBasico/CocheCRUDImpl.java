@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema5EjerciciosJava;
+package FranciscoGarretaCalderon.Tema5EjerciciosJavaBasico;
 
 public class CocheCRUDImpl implements CocheCRUD{
 

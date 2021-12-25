@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema2EjerciciosJava;
+package FranciscoGarretaCalderon.Tema2EjerciciosJavaBasico;
 
 import java.math.BigDecimal;
 import java.util.concurrent.ThreadLocalRandom;

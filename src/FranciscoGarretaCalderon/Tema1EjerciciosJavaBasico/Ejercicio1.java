@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema1EjerciciosJava;
+package FranciscoGarretaCalderon.Tema1EjerciciosJavaBasico;
 
 public class Ejercicio1 {
 

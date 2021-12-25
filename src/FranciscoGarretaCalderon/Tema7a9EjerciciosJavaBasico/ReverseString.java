@@ -1,4 +1,4 @@
-package FranciscoGarretaCalderon.Tema7a9EjerciciosJava;
+package FranciscoGarretaCalderon.Tema7a9EjerciciosJavaBasico;
 
 import java.util.Scanner;
 

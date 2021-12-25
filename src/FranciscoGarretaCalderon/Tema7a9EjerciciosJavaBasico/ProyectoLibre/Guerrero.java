@@ -1,32 +1,32 @@
-package FranciscoGarretaCalderon.Tema7a9EjerciciosJava.ProyectoLibre;
+package FranciscoGarretaCalderon.Tema7a9EjerciciosJavaBasico.ProyectoLibre;
 
 import java.util.HashMap;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Lancero extends Luchador{
+public class Guerrero extends Luchador{
 
-    public Lancero(boolean jugador, String clase) {
+    public Guerrero(boolean jugador, String clase) {
 
         super(jugador, clase);
-        this.velocidad = ThreadLocalRandom.current().nextInt(4, 6);
-        this.vida = ThreadLocalRandom.current().nextInt(10, 19) + 5;
-        this.fuerza = ThreadLocalRandom.current().nextInt(12, 17);
-        this.defensa = ThreadLocalRandom.current().nextInt(8, 15);
+        this.velocidad = ThreadLocalRandom.current().nextInt(1, 5);
+        this.vida = ThreadLocalRandom.current().nextInt(20, 31);
+        this.fuerza = ThreadLocalRandom.current().nextInt(10, 12);
+        this.defensa = ThreadLocalRandom.current().nextInt(10, 16) + 5;
 
     }
 
     public void golpear(Luchador combatiente1, Luchador combatiente2, HashMap<String, Integer> marcador) {
 
-        if (combatiente2.clase.equals("Guerrero") && combatiente1.fuerza < 17) {
+        if (combatiente2.clase.equals("Cazador") && combatiente1.fuerza < 12) {
 
             combatiente1.fuerza += 5;
             if (combatiente1.jugador) {
 
-                System.out.println("Ganas 5 de fuerza al enfrentarse a un Guerrero");
+                System.out.println("Ganas 5 de fuerza al enfrentarse a un Cazador");
 
             } else {
 
-                System.out.println("El enemigo gana 5 de fuerza al enfrentarse a un Guerrero");
+                System.out.println("El enemigo gana 5 de fuerza al enfrentarse a un Cazador");
 
             }
 
