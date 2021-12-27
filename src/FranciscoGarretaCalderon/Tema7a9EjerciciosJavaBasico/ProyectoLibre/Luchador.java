@@ -13,13 +13,9 @@ public abstract class Luchador{
     int ofensiva;
 
     public Luchador(boolean jugador, String clase) {
-
         this.clase = clase;
         this.jugador = jugador;
-
     }
 
-
     public abstract void golpear(Luchador luchador, Luchador enemigo,  HashMap<String, Integer> marcador);
-
 }

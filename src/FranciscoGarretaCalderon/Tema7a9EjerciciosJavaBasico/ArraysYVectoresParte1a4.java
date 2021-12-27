@@ -7,11 +7,8 @@ public class ArraysYVectoresParte1a4 {
     public static void main(String[] args) {
 
         int[] numeros = {5, 8, 32, 68, 14, 39};
-
         for (int numero : numeros) {
-
             System.out.println(numero);
-
         }
 
         int[][] numeros2D = {
@@ -20,13 +17,9 @@ public class ArraysYVectoresParte1a4 {
         };
 
         for (int i = 0; i < numeros2D.length; i++) {
-
             for (int j = 0; j < numeros2D[i].length; j++) {
-
                 System.out.format("El valor de i es: %s. El valor de j es: %s.\nEl valor asociado a dicha posición es: %s\n", i, j , numeros2D[i][j]);
-
             }
-
         }
 
         Vector<Integer> vectorcito = new Vector<>();
@@ -47,6 +40,5 @@ public class ArraysYVectoresParte1a4 {
          * inlcuso haciendo la ejecución del mismo mucho más lenta. En última instancia ésto puede dar lugar a
          * fallos por no poder reservar suficiente memoria para los procesos que se han de llevar a cabo y el fallo total
          * del programa en cuestión*/
-
     }
 }
