@@ -42,6 +42,7 @@ public class MiniJuego {
 
                 if (comandoActual.equalsIgnoreCase("ayuda")) {
 
+
                     System.out.println("Los comandos que puedes usar son:\nJugar: Te permite echar una partida.");
                     System.out.println("Ayuda: Te enseña este mensaje, un poco obvio, ¿no?\nCargar partida: Lee un archivo txt con una partida guardada.");
                     System.out.println("Guardar partida: te permite guardar tus estadísticas en un archivo txt");
@@ -388,7 +389,7 @@ public class MiniJuego {
 
                     try {
 
-                        InputStream historiaDelJuego = new FileInputStream("src/FranciscoGarretaCalderon/Tema7a9EjerciciosJava/ProyectoLibre/etc/Historia del juego.txt");
+                        InputStream historiaDelJuego = new FileInputStream("src/FranciscoGarretaCalderon/Tema7a9EjerciciosJavaBasico/ProyectoLibre/etc/Historia del juego.txt");
                         BufferedInputStream historiaAMemoria = new BufferedInputStream(historiaDelJuego);
 
                         try{
