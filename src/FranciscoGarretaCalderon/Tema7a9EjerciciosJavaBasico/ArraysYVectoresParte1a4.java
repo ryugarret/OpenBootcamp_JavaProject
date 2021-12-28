@@ -32,13 +32,13 @@ public class ArraysYVectoresParte1a4 {
         vectorcito.remove(2);
         System.out.println(vectorcito);
 
-        /** Como hemos visto en las clases el uso de vectores para guardar información es muy útil,
-         * no obstante presentan un problema importantisimo al usarse de manera incorrecta, si creasemos un vector
-         * con capacidad por defecto, y quisiesemos añadir mil elementos al mismo, nos encontraríamos con un uso desmedido
-         * de la memoria al tener que estar ampliando constantemente dicho vector, someteríamos al dispositivo que ejecuta
-         * el programa a tener que copiar los datos del vector que está lleno al nuevo, ocupando memoria de forma doble o
-         * inlcuso haciendo la ejecución del mismo mucho más lenta. En última instancia ésto puede dar lugar a
-         * fallos por no poder reservar suficiente memoria para los procesos que se han de llevar a cabo y el fallo total
-         * del programa en cuestión*/
+        /* Como hemos visto en las clases el uso de vectores para guardar información es muy útil,
+          no obstante presentan un problema importantisimo al usarse de manera incorrecta, si creasemos un vector
+          con capacidad por defecto, y quisiesemos añadir mil elementos al mismo, nos encontraríamos con un uso desmedido
+          de la memoria al tener que estar ampliando constantemente dicho vector, someteríamos al dispositivo que ejecuta
+          el programa a tener que copiar los datos del vector que está lleno al nuevo, ocupando memoria de forma doble o
+          inlcuso haciendo la ejecución del mismo mucho más lenta. En última instancia ésto puede dar lugar a
+          fallos por no poder reservar suficiente memoria para los procesos que se han de llevar a cabo y el fallo total
+          del programa en cuestión*/
     }
 }
