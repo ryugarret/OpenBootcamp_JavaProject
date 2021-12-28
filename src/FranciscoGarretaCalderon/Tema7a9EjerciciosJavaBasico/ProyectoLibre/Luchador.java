@@ -12,6 +12,8 @@ public abstract class Luchador{
     int defensa;
     int ofensiva;
 
+    public Luchador() {}
+
     public Luchador(boolean jugador, String clase) {
         this.clase = clase;
         this.jugador = jugador;

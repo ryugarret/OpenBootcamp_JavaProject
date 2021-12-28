@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Cazador extends Luchador{
+    public Cazador() {}
 
     public Cazador(boolean jugador, String clase) {
         super(jugador, clase);

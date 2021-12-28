@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Picaro extends Luchador{
+    public Picaro(){}
 
     public Picaro(boolean jugador, String clase) {
         super(jugador, clase);

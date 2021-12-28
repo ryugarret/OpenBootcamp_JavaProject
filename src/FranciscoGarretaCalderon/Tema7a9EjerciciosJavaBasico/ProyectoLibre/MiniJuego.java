@@ -38,30 +38,30 @@ public class MiniJuego {
                         String luchador = sc.nextLine();
                         int claseEnemigo = ThreadLocalRandom.current().nextInt(1, 5);
                         if (luchador.equalsIgnoreCase("Cazador")) {
-                            Cazador pjJugador = new Cazador(true, "Cazador");
+                            Luchador pjJugador = new Cazador(true, "Cazador");
                             if (claseEnemigo == 1) {
-                                Cazador pjEnemigo = new Cazador(false, "Cazador");
+                                Luchador pjEnemigo = new Cazador(false, "Cazador");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 2) {
-                                Guerrero pjEnemigo = new Guerrero(false, "Guerrero");
+                                Luchador pjEnemigo = new Guerrero(false, "Guerrero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 3) {
-                                Lancero pjEnemigo = new Lancero(false, "Lancero");
+                                Luchador pjEnemigo = new Lancero(false, "Lancero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else {
-                                Picaro pjEnemigo = new Picaro(false, "Pícaro");
+                                Luchador pjEnemigo = new Picaro(false, "Pícaro");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
@@ -70,30 +70,30 @@ public class MiniJuego {
                             }
                             enCombate = false;
                         } else if (luchador.equalsIgnoreCase("Guerrero")) {
-                            Guerrero pjJugador = new Guerrero(true, "Guerrero");
+                            Luchador pjJugador = new Guerrero(true, "Guerrero");
                             if (claseEnemigo == 1) {
-                                Cazador pjEnemigo = new Cazador(false, "Cazador");
+                                Luchador pjEnemigo = new Cazador(false, "Cazador");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 2) {
-                                Guerrero pjEnemigo = new Guerrero(false, "Guerrero");
+                                Luchador pjEnemigo = new Guerrero(false, "Guerrero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 3) {
-                                Lancero pjEnemigo = new Lancero(false, "Lancero");
+                                Luchador pjEnemigo = new Lancero(false, "Lancero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else {
-                                Picaro pjEnemigo = new Picaro(false, "Pícaro");
+                                Luchador pjEnemigo = new Picaro(false, "Pícaro");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
@@ -102,30 +102,30 @@ public class MiniJuego {
                             }
                             enCombate = false;
                         } else if (luchador.equalsIgnoreCase("Lancero")) {
-                            Lancero pjJugador = new Lancero(true, "Lancero");
+                            Luchador pjJugador = new Lancero(true, "Lancero");
                             if (claseEnemigo == 1) {
-                                Cazador pjEnemigo = new Cazador(false, "Cazador");
+                                Luchador pjEnemigo = new Cazador(false, "Cazador");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 2) {
-                                Guerrero pjEnemigo = new Guerrero(false, "Guerrero");
+                                Luchador pjEnemigo = new Guerrero(false, "Guerrero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 3) {
-                                Lancero pjEnemigo = new Lancero(false, "Lancero");
+                                Luchador pjEnemigo = new Lancero(false, "Lancero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else {
-                                Picaro pjEnemigo = new Picaro(false, "Pícaro");
+                                Luchador pjEnemigo = new Picaro(false, "Pícaro");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
@@ -134,30 +134,30 @@ public class MiniJuego {
                             }
                             enCombate = false;
                         } else if (luchador.equalsIgnoreCase("Picaro") || luchador.equalsIgnoreCase("Pícaro")) {
-                            Picaro pjJugador = new Picaro(true, "Pícaro");
+                            Luchador pjJugador = new Picaro(true, "Pícaro");
                             if (claseEnemigo == 1) {
-                                Cazador pjEnemigo = new Cazador(false, "Cazador");
+                                Luchador pjEnemigo = new Cazador(false, "Cazador");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 2) {
-                                Guerrero pjEnemigo = new Guerrero(false, "Guerrero");
+                                Luchador pjEnemigo = new Guerrero(false, "Guerrero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 3) {
-                                Lancero pjEnemigo = new Lancero(false, "Lancero");
+                                Luchador pjEnemigo = new Lancero(false, "Lancero");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
                                     pjEnemigo.golpear(pjEnemigo, pjJugador, marcador);
                                 }
                             } else if (claseEnemigo == 4) {
-                                Picaro pjEnemigo = new Picaro(false, "Pícaro");
+                                Luchador pjEnemigo = new Picaro(false, "Pícaro");
                                 if (pjJugador.velocidad >= pjEnemigo.velocidad) {
                                     pjJugador.golpear(pjJugador, pjEnemigo, marcador);
                                 } else {
